@@ -1,0 +1,3 @@
+set palette black;
+display none top pads vias;
+export image /Users/qqq/Documents/EAGLE/projects/Test_plate/prn/neg_top.png monochrome 600;

@@ -1,0 +1,2 @@
+set palette white;
+export image /Users/qqq/Documents/EAGLE/projects/Test_plate/prn/xx_pos.png monochrome 600;

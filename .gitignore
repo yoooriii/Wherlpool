@@ -49,3 +49,13 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+# ignore my print folders
+*/prn
+*/print
+
+# Arduino ignore files:
+/build
+dbg*
+_dbg*
+_tmp*

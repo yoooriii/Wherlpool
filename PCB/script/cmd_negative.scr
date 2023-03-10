@@ -1,0 +1,3 @@
+set palette black;
+display none bottom pads vias;
+export image /Users/qqq/Documents/EAGLE/projects/Test_plate/prn/neg_bot.png monochrome 600;
