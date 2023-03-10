@@ -8,3 +8,5 @@ Temp 	: Resistance
 10 pin socket:
 MF-10MRA (N42GP-10) Ninigi
 step 4.2 mm, 2х5
+
+Defrost heater: R=210 ohm, at 220v it makes 230 W.
