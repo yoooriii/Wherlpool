@@ -55,7 +55,7 @@ eagle.epf
 */print
 
 # Arduino ignore files:
-/build
+*/build
 dbg*
 _dbg*
 _tmp*

@@ -1,0 +1,43 @@
+Arduino command line examples:
+
+$ arduino-cli compile -b MiniCore:avr:8 FridgeCtr
+
+$ arduino-cli board listall
+ 
+avrdude -c avrisp -P COM8 -b 19200 -p m8 -U flash:w:myfile.hex
+avrdude -c avrisp -P COM8 -b 19200 -p m8 -U lfuse:w:0xEF:m -U hfuse:w:0xC9:m
+
+avrdude -p m8 -c usbasp -P /dev/ttyUSB0 -b 115200 -U flash:w:usbasp.atmega8.2011-05-28.hex:i
+
+avrdude.exe -C ./avrdude.conf -p m8 -c avrisp -P COM4 -b 19200 -U hfuse:w:0xc9:m -U lfuse:w:0xef:m
+
+
+=====================================
+$ avrdude -p m8 -c usbasp -U flash:w:usbasp.hex:i
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9307 (probably m8)
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "usbasp.hex"
+avrdude: writing flash (4700 bytes):
+
+Writing | ################################################## | 100% 2.19s
+
+avrdude: 4700 bytes of flash written
+avrdude: verifying flash memory against usbasp.hex:
+
+Reading | ################################################## | 100% 1.27s
+
+avrdude: 4700 bytes of flash verified
+
+avrdude done.  Thank you.
+=====================================
+
+$ avrdude -pm8 -cusbasp -U flash:w:/<User>/<Path>/Blink/build/MiniCore.avr.8/Blink.ino.hex 
+
+
