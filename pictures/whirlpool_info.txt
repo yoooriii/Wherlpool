@@ -1,0 +1,10 @@
+Thermo sensor "I Freezer temp sensor" - brown-brown
+Temp 	: Resistance
++25.0	: 2.4k
+ -0.5	: 8.8k
+-20.0	: 25k
+-30.0	: 40k
+
+10 pin socket:
+MF-10MRA (N42GP-10) Ninigi
+step 4.2 mm, 2х5
